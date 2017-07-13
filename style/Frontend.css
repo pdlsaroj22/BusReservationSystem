@@ -1,0 +1,70 @@
+﻿body { 
+    
+
+}
+.body_warper{
+    position:absolute;
+    background-color:brown;
+    height:100%;
+    left: 150px;
+    right:150px;
+}
+.clear{
+    clear:both;
+}
+.header {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    float: left;
+    background-image: url('../images/Header_image-3.jpg');
+    background-repeat:no-repeat;
+    
+}
+.header_title{
+    position:absolute;
+    height:auto;
+    width:auto;
+    float:left;
+    left:50px;
+    top:50px;
+    
+    background-color:aquamarine;
+}
+.menu{
+    position:absolute;
+    height:50px;
+    float:left;
+    width:100%;
+    background-color:chartreuse;
+    top: 203px;
+    
+}
+.content{
+    position:absolute;
+    height:auto;
+    float:left;
+    background-color:darkolivegreen;
+    width:100%;
+    top: 255px;
+    
+    
+}
+.content_login{
+    position:absolute;
+    height:auto;
+    width:auto;
+    margin-left:200px;
+    margin-top:100px;
+    float:left;   
+}
+.footer{
+    position:absolute;
+    float:left;
+    height:35px;
+    width:100%;
+    background-color:aqua;
+    bottom:5px;
+    left: 0px;
+    
+}

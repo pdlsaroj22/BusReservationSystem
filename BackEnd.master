@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="BackEnd.master.cs" Inherits="BackEnd" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="style/Frontend.css" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="body_warper">
+
+        <div class="header">
+            <div class="header_title">
+                <p><h1>Paudel Bus Reservation System</h1></p>
+                <h3>green economy....the way for sustainable public transport..</h3>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="menu">
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear"></div>
+       <div class="footer">
+           footer
+       </div>
+    </div>
+    
+    
+    </form>
+    
+    
+</body>
+</html>
